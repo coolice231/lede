@@ -42,6 +42,4 @@ jobs:
         echo "There is no merge commits."
         fi
     - name: Push Commits
-      env:
-        DOWNSTREAM_BRANCH: test
-      run: git push -u origin $DOWNSTREAM_BRANCH
+      run: git push origin HEAD -u
