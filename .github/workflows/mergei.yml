@@ -6,7 +6,7 @@ on:
 #       - master
   schedule:
     - cron: 0 * * * *
-    
+
   watch:
     types: started
 jobs:
@@ -44,4 +44,4 @@ jobs:
     - name: Push Commits
       env:
         DOWNSTREAM_BRANCH: test
-      run: git push origin $DOWNSTREAM_BRANCH
+      run: git push -u origin $DOWNSTREAM_BRANCH
