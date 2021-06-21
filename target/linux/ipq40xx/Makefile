@@ -19,7 +19,6 @@ DEFAULT_PACKAGES += \
 	kmod-leds-gpio kmod-gpio-button-hotplug swconfig \
 	kmod-ath10k wpad-openssl \
 	kmod-usb3 kmod-usb-dwc3 ath10k-firmware-qca4019 \
-	autocore-arm automount autosamba luci-app-unblockmusic luci-app-cpufreq luci-app-zerotier \
 	htop ethtool \
 	-luci-app-sfe
 
